@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
+body {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+/*
+COMMON
+================================================ */
+.title {
+    font-family:  "Noto Serif KR", serif;
+    font-size: 10rem;
+    margin-bottom: 3rem;
+}
+p {
+    line-height: 1.9;
+    font-size: 1rem;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*
+HERO
+================================================ */
+.hero {
+    background-image: url(image/1.png);
+    text-align: left;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-top: 7rem;
+}
+
+/*
+MENU
+================================================ */
+.menu {
+    background-image: url(image/2.png);
+    text-align: center;
+    padding-top: 8vh;
+}
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.ORDER-list tr {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    line-height: 1.3;
+}
+.ORDER-list th {
+    font-weight: normal;
+}
+.ORDER-list td {
+    padding-left: 10rem;
+}
+.menu-text {
+  margin-top: 20px;
+  line-height: 1.8;
+  text-align: center; 
+  font-size: 14px;  
+  color: #fff;     
+}
+/*
+CONTACT
+================================================ */
+.contact {
+    background-image: url(image/3.png);
+    text-align: center;
+    padding-top: 8vh;
+}
+.btn {
+    background: #b2b2ae;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 2rem 0 2.25rem;
+}
+.btn:hover {
+    background: #777;
+}
+.contact-sns {
+    display: flex;
+    justify-content: center;
+}
+.contact-sns a {
+    background: #fff;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: inline-block;
+    margin: 0 .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .75rem 0 0 .125rem;
+    color: #555;
+}
+.contact-sns a:hover {
+    background: rgba(255,255,255,.5);
+}
+
+/*
+MOBILE SIZE
+================================================ */
+@media (max-width: 700px) {
+    .title {
+        font-size: 5rem;
+    }
+    p {
+        padding: 0 1rem;
+        font-size: 1.3rem;
+    }
+    .menu{
+        text-align: center;
+        padding-top: 20vh;
+        padding-bottom: 15vh;
+    }
+    .ORDER-list tr {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    line-height: 1.5;
+    }
+    .ORDER-list th {
+    font-weight: normal;
+    word-break: keep-all;
+    }
+    .ORDER-list td {
+    padding-left: 0.1rem;
+    white-space: nowrap;
+    }
+    .hero {
+        padding-top: 12vh;
+    }
+    .menu-text{
+        margin-top: 3rem;
+    }
+    .contact{
+        padding-top: 22vh;
+    }
+}
