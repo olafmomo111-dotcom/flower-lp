@@ -134,6 +134,10 @@ MOBILE SIZE
         padding-top: 20vh;
         padding-bottom: 15vh;
     }
+    .ORDER-list{
+        width: 100%;
+        table-layout: fixed;
+    }
     .ORDER-list tr {
     font-size: 1rem;
     margin-bottom: .5rem;
@@ -144,8 +148,9 @@ MOBILE SIZE
     word-break: keep-all;
     }
     .ORDER-list td {
-    padding-left: 0.1rem;
+    padding-left: 1.8rem;
     white-space: nowrap;
+    font-size: 0.9rem;
     }
     .hero {
         padding-top: 12vh;
