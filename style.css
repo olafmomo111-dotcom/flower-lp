@@ -146,6 +146,7 @@ MOBILE SIZE
     .ORDER-list th {
     font-weight: normal;
     word-break: keep-all;
+    padding-left: 0.6rem;
     }
     .ORDER-list td:last-child{
         text-align: right;
