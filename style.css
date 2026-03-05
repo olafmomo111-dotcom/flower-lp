@@ -130,7 +130,6 @@ MOBILE SIZE
         font-size: 1.3rem;
     }
     .menu{
-        text-align: center;
         padding-top: 20vh;
         padding-bottom: 15vh;
     }
@@ -155,7 +154,6 @@ MOBILE SIZE
     padding-left: 1.8rem;
     font-size: 0.9rem;
     white-space: normal;
-    text-align: left;
     }
     .hero {
         padding-top: 12vh;
