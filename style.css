@@ -68,9 +68,10 @@ MENU
 }
 .ORDER-list th {
     font-weight: normal;
+    padding-left: 3rem;
 }
 .ORDER-list td {
-    padding-left: 10rem;
+    padding-left: 16rem;
 }
 .menu-text {
   margin-top: 20px;
@@ -153,7 +154,6 @@ MOBILE SIZE
     .ORDER-list td {
     padding-left: 1.8rem;
     font-size: 0.9rem;
-    white-space: normal;
     }
     .hero {
         padding-top: 12vh;
